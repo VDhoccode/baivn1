@@ -1,0 +1,30 @@
+body{
+		margin: 2%;
+		border: 1px solid black;
+		background-color: #b3b3b3;
+}
+#message{
+    line-height:100px;
+    text-align:center;
+	width: 775px;
+    height: 300px;
+	border:5px solid black;
+	margin:0 auto;
+    margin-bottom:10px;
+    background-color: #8e68ff;
+    font-size: 150%;
+	background-size: cover;      
+    background-position: center;
+	color:white;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.preview{
+		width:10%;
+		margin-left:17%;
+    border: 10px solid black;
+}
+img{
+		width:35%;
+}

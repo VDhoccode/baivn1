@@ -1,2 +1,1 @@
-# baivn1
-baitap
+# week2-js-this-second-example

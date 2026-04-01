@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	
+	<div id = "message">
+		Hover over an image to display the alt text.
+	</div>
+	
+	<img class = "preview" alt = "Co Do HUe" src = "../Files/codohue.jpg" onmouseover = "showProperties(this)" onmouseleave = "document.getElementById('message').innerHTML='Hover over an image'; document.getElementById('message').style.backgroundImage='none';">
+	
+	<img class = "preview" alt = "Dao Phu Quoc" src = "../Files/daophuquoc.jpg" onmouseover = "showProperties(this)" onmouseleave =  "document.getElementById('message').innerHTML='Hover over an image'; document.getElementById('message').style.backgroundImage='none';">
+	
+	
+	<img class = "preview" src = "../Files/Vinhhalong.jpg" alt = "Vinh Ha Long" onmouseover = "showProperties(this)" onmouseleave =  "document.getElementById('message').innerHTML='Hover over an image'; document.getElementById('message').style.backgroundImage='none';">
+	
+	
+</body>
+</html>
+<script src="js/script.js"></script>
